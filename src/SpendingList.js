@@ -43,7 +43,7 @@ class SpendingList extends Component {
   }
 
   render() {
-    return <ul>{this.renderItems()}</ul>;
+    return <ul class="collection">{this.renderItems()}</ul>;
   }
 }
 

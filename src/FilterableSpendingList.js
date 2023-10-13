@@ -6,9 +6,16 @@ function FilterableSpendingList() {
   const [filterText, setFilterText] = useState('');
 
   return (
-    <div>
-      <SearchBar filterText={filterText} onFilterTextChange={setFilterText} />
-      <SpendingList filterText={filterText} />
+    <div class="row">
+      <div class="col s12 m4 l8">
+        <div class="row">
+          <SearchBar
+            filterText={filterText}
+            onFilterTextChange={setFilterText}
+          />
+          <SpendingList filterText={filterText} />
+        </div>
+      </div>
     </div>
   );
 }
