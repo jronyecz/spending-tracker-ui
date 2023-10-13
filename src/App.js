@@ -1,6 +1,5 @@
 import './App.css';
 import FilterableSpendingList from './FilterableSpendingList';
-import solid_coins from './solid_coins.svg';
 
 function App() {
   return (
